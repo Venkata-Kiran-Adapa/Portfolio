@@ -7,11 +7,24 @@ main{
 .bg{
   background-color: #1E201E;
 }
+.txt{
+  background-image: linear-gradient( to right, #1ef0f4,#872727);
+  background-clip: text;
+  color: transparent; 
+}
+.txtt{
+  background-image: linear-gradient(to right,#6ee11c,#e35c5c);
+  background-clip: text;
+  color: transparent; 
+}
 .details{
   width:25%;
 }
 .information{
   width:75%;
+}
+.details,.information{
+  border-radius: 25px;
 }
 .contactinfo{
   width:100%;
