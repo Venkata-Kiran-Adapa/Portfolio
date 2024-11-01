@@ -1,0 +1,32 @@
+body{
+  background-color: black;
+}
+main{
+  width:100vw;
+}
+.bg{
+  background-color: #1E201E;
+}
+.details{
+  width:25%;
+}
+.information{
+  width:75%;
+}
+.contactinfo{
+  width:100%;
+}
+.navlinks:hover{
+  color:gold;
+}
+.resume,.projects,.skillsandcertifications{
+  display: none;
+}
+
+
+@media only screen and (max-width:426px){
+  .details,.information{
+    width:100%;
+  }
+  
+}
